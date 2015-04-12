@@ -1,0 +1,251 @@
+section
+      center 
+        h1.arrow-yellow 
+          ¿Cómo funciona CENTRAL?
+
+    #driver-body.center 
+      .left-block
+        span Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed lectus nisl. Mauris arcu augue, luctus sed faucibus sodales, dapibus nec orci. Aliquam erat volutpat. Proin non nibh aliquet, pulvinar lorem nec, sagittis nisl. Duis gravida ultrices ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        p Mauris dignissim nisi vel leo placerat, eget mollis dolor lacinia. Morbi et nibh dui. Proin dictum aliquam tincidunt. Sed lacinia pellentesque quam a ultrices. Sed ac orci fermentum, tincidunt metus at, lobortis orci. Nulla sit amet mollis metus. 
+        p Aenean id tempus nisi. Donec ornare, est nec sodales accumsan, justo mauris interdum leo, nec elementum tortor ante eget dui. Mauris pellentesque in sapien ac euismod. Aliquam erat volutpat. Proin non nibh aliquet, pulvinar lorem nec, sagittis nisl.
+      .right-block
+        //Slider
+        #slideshow-central.swiper-container
+          .swiper-wrapper
+            .swiper-slide
+              img(src='images/taxi_off.jpg')
+            .swiper-slide
+              img(src='images/taxi_on.jpg')
+            .swiper-slide
+              img(src='images/taxista_off.jpg')
+            .swiper-slide
+              img(src='images/taxista_on.jpg')
+            .swiper-slide
+              img(src='images/central_off.jpg')
+            .swiper-slide
+              img(src='images/central_on.jpg')
+
+      .footer-line  
+      .footer-block
+        .footer-innerleft
+          a(href='').selected
+            img(src='images/central_icon.png')
+        .footer-innercenter
+          h2 CENTRAL
+          span Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed lectus nisl. Mauris arcu augue, luctus sed faucibus sodales, dapibus nec orci. Aliquam erat volutpat. Proin non nibh aliquet, pulvinar lorem nec, sagittis nisl. Duis gravida ultrices ultricies.
+        .footer-innerright
+          h2 PLATAFORMAS
+          a(href='').store
+            img(src='images/apple.jpg')
+          a(href='').store
+            img(src='images/android.jpg')
+          a(href='').store
+            img(src='images/windows.jpg')
+    .social-icons
+      #fb-central
+
+      .fb-like(data-href='https://www.facebook.com/pages/Mitaxi/606813486011655?ref=hl', data-layout='standard', data-action='like', data-show-faces='true', data-share='true')
+
+    #central-prices
+      
+      .background
+        p.arrow-yellow
+          |Precios de CENTRAL
+        .inner-prices
+          table(align='center' name="tbl_prices")
+            thead
+              th
+              th Licencia
+              th Clientes
+              th Taxistas
+              th Administradores
+              th Moviles
+              th Tablets
+              th Precio por Mes
+            tr#tr_1
+              td#td_rad_space_1.stretch 
+                input#rad_1(type='radio', name='selection1', value='1' checked)
+              td#td_licen_1.license Básica Bronce
+              td#td_client_1 Ilimitados
+              td#td_tax_1 10
+              td#td_admin_1 1
+              td#td_mob_1 1
+              td#td_tablet_1 1
+              td#td_price_1 $200,°°
+            tr#tr_2
+              td#td_rad_space_2.stretch 
+                input#rad_2(type='radio', name='selection1', value='2')
+              td#td_licen_2.license Básica Plata
+              td#td_client_2 Ilimitados
+              td#td_tax_2 50
+              td#td_admin_2 2
+              td#td_mob_2 2
+              td#td_tablet_2 2
+              td#td_price_2 $300,°°
+            tr#tr_3
+              td#td_rad_space_3.stretch 
+                input#rad_3(type='radio', name='selection1', value='3')
+              td#td_licen_3.license Básica Oro
+              td#td_client_3 Ilimitados
+              td#td_tax_3 100
+              td#td_admin_3 3
+              td#td_mob_3 3
+              td#td_tablet_3 3
+              td#td_price_3 $400,°°
+            tr#tr_4
+              td#td_rad_space_4.stretch 
+                input#rad_4(type='radio', name='selection1', value='4')
+              td#td_licen_4.license Premium Bronce
+              td#td_client_4 Ilimitados
+              td#td_tax_4 200
+              td#td_admin_4 10
+              td#td_mob_4 10
+              td#td_tablet_4 10
+              td#td_price_4 $500,°°
+            tr#tr_5
+              td#td_rad_space_5.stretch 
+                input#rad_5(type='radio', name='selection1', value='5')
+              td#td_licen_5.license Premium Plata
+              td#td_client_5 Ilimitados
+              td#td_tax_5 250
+              td#td_admin_5 20
+              td#td_mob_5 20
+              td#td_tablet_5 20
+              td#td_price_5 $600,°°
+            tr#tr_6
+              td#td_rad_space_6.stretch 
+                input#rad_6(type='radio', name='selection1', value='6')
+              td#td_licen_6.license Premium Oro
+              td#td_client_6 Ilimitados
+              td#td_tax_6 300
+              td#td_admin_6 30
+              td#td_mob_6 30
+              td#td_tablet_6 30
+              td#td_price_6 $700,°
+            tr#tr_7
+              td#td_rad_space_7.stretch 
+                input#rad_7(type='radio', name='selection1', value='7')
+              td#td_licen_7.license Plus Bronce
+              td#td_client_7 Ilimitados
+              td#td_tax_7 Ilimitados
+              td#td_admin_7 Ilimitados
+              td#td_mob_7 15
+              td#td_tablet_7 17
+              td#td_price_7 $800,°°
+            tr#tr_8
+              td#td_rad_space_8.stretch 
+                input#rad_8(type='radio', name='selection1', value='8')
+              td#td_licen_8.license Plus Platas
+              td#td_client_8 Ilimitados
+              td#td_tax_8 Ilimitado8
+              td#td_admin_8 Ilimitado
+              td#td_mob_8 25
+              td#td_tablet_8 25
+              td#td_price_8 $900,°°
+            tr#tr_9
+              td#td_rad_space_9.stretch 
+                input#rad_9(type='radio', name='selection1', value='9')
+              td#td_licen_9.license Plus Oro
+              td#td_client_9 Ilimitados
+              td#td_tax_9 Ilimitados
+              td#td_admin_9 Ilimitados
+              td#td_mob_9 35
+              td#td_tablet_9 35
+              td#td_price_9 $1000,°°
+        .backfont
+          Aenean id tempus nisi. Donec ornare, est nec sodales accumsan, justo mauris interdum leo, nec elementum tortor ante eget dui. Mauris pellentesque in sapien ac euismod. Aliquam erat volutpat. Proin non nibh aliquet, pulvinar lorem nec, sagittis nisl.
+        .footer-block
+          .footer-innercenter
+            #slideBox
+              p EXTRAS
+              #tableBox
+                table#extraTable(align='center')
+                  thead
+                    //th A
+                    //th B
+                  tr#tr_ext_1
+                    td#td_ext_licence.concept
+                      | Plan Básica Bronce
+                    td#td_licence_price(name='200')
+                      $200,°°
+                  tr#tr_ext_2
+                    td#td_ext_taxi.concept
+                      input#taxi_counter.smartspinner(type='text')
+                      |Taxistas
+                    td#taxi_counter_price(name="10")
+                      $10,°°
+                  tr#tr_ext_3
+                    td#td_ext_admin.concept
+                      input#admin_counter.smartspinner(type='text')
+                      |Administrador
+                    td#admin_counter_price(name="30")
+                      $30,°°
+                  tr#tr_ext_4
+                    td#td_ext_mob.concept
+                      input#mobil_counter.smartspinner(type='text')
+                      |Mobiles
+                    td#mobil_counter_price(name="30")
+                      $30,°°
+                  tr#tr_ext_5
+                    td#td_ext_tablet.concept
+                      input#tablets_counter.smartspinner(type='text')
+                      |Tablets
+                    td#tablets_counter_price(name="50")
+                      $50,°°
+                  tr#tr_ext_6
+                    td#td_ext_iscount.concept
+                      input#discount_code(type='text' placeholder="Codigo de Descuento" style="background-color: #E4E4E4")
+                    td#td_ext_discount_price(name="0")
+                      $0,°°
+                  tr#tr_ext_7
+                    td#td_ext_total.Totalconcept
+                      | Total a Cancelar por Mes
+                    td#td_ext_total_price.Totalconcept(style="text-align: center;")
+                      $320,°°
+
+
+              form#contact(action='/contact', name='contact', method='POST')
+                input#name.txtinput(type='text', name='empresa', placeholder='Empresa', autocomplete='off', tabindex='1')
+                input#name.txtinput(type='text', name='nombre', placeholder='Nombre', autocomplete='off', tabindex='2')
+                input#email.txtinput(type='email', name='email', placeholder='E-mail', autocomplete='off', tabindex='3')
+                input#telephone.txtinput(type='tel', name='telefono', placeholder='Teléfono (opcional)', tabindex='4')
+                textarea#message.txtblock(name='mensaje', placeholder='Detalle...', tabindex='5')
+                input#submitbtn.submitbtn(type='submit', name='submit', tabindex='7', value='Submit')
+
+
+            input#extraCalculate(type='button', name='extraCalculate' value="COTIZAR EXTRAS")
+            
+
+
+our-apps
+  center
+    h1.arrow-yellow 
+      Nuestras ApliPrecio por Mes
+
+  #our-apps.center
+    .left-block
+      .inner-left
+        a(href='').taxi
+        img(src='images/taxi_icon.png').icons 
+        a(href='').central
+        img(src='images/taxi_driver_icon.png').icons
+      .inner-taxi
+        h2 TAXI
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed lectus nisl. Mauris arcu augue, luctus sed faucibus sodales, dapibus nec orci. 
+          a(href='').taxi Ver más información >
+        h2 TAXISTA
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed lectus nisl. Mauris arcu augue, luctus sed faucibus sodales, dapibus nec orci. 
+          a(href='').central Ver más información >
+    .right-block
+      .right-inner-block
+        img(src='images/logoTaxi!!!.png').logo
+    .inner-footer
+      a(href='').store
+        img(src='images/app_store.png').market
+      span    
+      a(href='').store
+        img(src='images/google_play.png').market 
+
+  .clear-fix
+
+    
